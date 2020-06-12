@@ -19,6 +19,5 @@ def port_scanner(port):
 print("searching for open port")
 print("this might take time ")
 
-print(port_s, port_e , int(port_e), int(port_s))
 for i in range(int(port_s) , int(port_e)+1):
     port_scanner(i)
